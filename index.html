@@ -1,121 +1,135 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inverted Dodo</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <header>
-      <h1>🦤 Inverted Dodo</h1>
-      <p class="tagline">Alternative experiments & hobby projects by Abhinai</p>
-      <nav>
-        <a href="https://github.com/aj-abhinai" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/ajabhinai" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="mailto:inverted.dodo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-      </nav>
-    </header>
+<!DOCTYPE html>
+<html lang="en">
 
-    <section id="projects">
-      <h2>🛠️   Projects</h2>
-      <div class="status-legend">
-        <div class="legend-item">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inverted Dodo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header>
+    <div class="header-top">
+      <div class="intro">
+        <p>Hey there!</p>
+        <p>I'm <strong>Abhinai</strong> — a curious builder exploring ideas through code. Here are some projects I've
+          been
+          working on. Feel free to look around and <b> reach out </b> if something catches your eye!</p>
+      </div>
+      <h1>Inverted Dodo</h1>
+    </div>
+    <div class="header-divider"></div>
+    <nav>
+      <a href="https://github.com/aj-abhinai" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ajabhinai" target="_blank" title="LinkedIn"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/ajabhinai/" target="_blank" title="Instagram"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:inverted.dodo@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <div class="projects-grid">
+
+      <div class="project featured">
+        <div class="project-status-container">
           <span class="project-status status-live"></span>
-          <span>Live</span>
+          <span class="project-status-text">Live</span>
         </div>
-        <div class="legend-item">
+        <span class="badge">Open Source</span>
+        <h3>Learning Platform Template</h3>
+        <p>Open-source template for creators to build educational content from unlisted YouTube videos. Seeking
+          contributors for improvements!</p>
+        <div class="project-links">
+          <a href="https://learning-platform-template.netlify.app/" target="_blank" class="btn btn-primary">▶️ Live
+            Demo</a>
+          <a href="https://github.com/aj-abhinai/learning-platform" target="_blank" class="btn btn-github">
+            <svg class="github-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-status-container">
+          <span class="project-status status-live"></span>
+          <span class="project-status-text">Live</span>
+        </div>
+        <span class="badge personal">Personal</span>
+        <h3>Digital Garden</h3>
+        <p>My personal note-taking system and knowledge base built with Quartz. A place where thoughts grow.</p>
+        <a href="https://aj-abhinai.github.io/" target="_blank" class="btn btn-primary">🌱 Visit Garden</a>
+      </div>
+
+      <div class="project">
+        <div class="project-status-container">
+          <span class="project-status status-live"></span>
+          <span class="project-status-text">Live</span>
+        </div>
+        <h3>Case Forms</h3>
+        <p>A professional medical case documentation form designed for privacy and local device use.</p>
+        <a href="https://caseforms.vercel.app/" target="_blank" class="btn btn-primary">🌐 View Project</a>
+      </div>
+
+      <div class="project">
+        <div class="project-status-container">
+          <span class="project-status status-live"></span>
+          <span class="project-status-text">Live</span>
+        </div>
+        <h3>Miller's Pyramid Generator</h3>
+        <p>A simple Miller's pyramid generator for academic purposes.</p>
+        <a href="https://academic-tools.pages.dev/" target="_blank" class="btn btn-primary">🌐 View Project</a>
+      </div>
+
+      <div class="project">
+        <div class="project-status-container">
           <span class="project-status status-inactive"></span>
-          <span>Inactive/Paused</span>
+          <span class="project-status-text">Not Active</span>
         </div>
+        <h3>Quick Doc Slot</h3>
+        <p>A simple appointment scheduling experiment deployed on Vercel.</p>
+        <a href="https://quick-doc-slot.vercel.app/" target="_blank" class="btn btn-primary">🌐 View Project</a>
       </div>
 
-      <div class="projects-grid">
-        <div class="project featured">
-          <div class="project-status-container">
-            <span class="project-status status-live"></span>
-            <span class="project-status-text">Live</span>
-          </div>
-          <span class="badge">Open Source</span>
-          <h3>Learning Platform Template</h3>
-          <p>Open-source template for creators to build educational content from unlisted YouTube videos. Seeking contributors for improvements!</p>
-          <div class="project-links">
-            <a href="https://learning-platform-template.netlify.app/" target="_blank" class="btn btn-primary">▶️ Live Demo</a>
-            <a href="https://github.com/aj-abhinai/learning-platform" target="_blank" class="btn btn-github">
-              <svg class="github-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-              </svg>
-              GitHub
-            </a>
-          </div>
+      <div class="project">
+        <div class="project-status-container">
+          <span class="project-status status-inactive"></span>
+          <span class="project-status-text">Inactive</span>
         </div>
-        
-        <div class="project">
-          <div class="project-status-container">
-            <span class="project-status status-live"></span>
-            <span class="project-status-text">Live</span>
-          </div>
-          <span class="badge personal">Personal</span>
-          <h3>Digital Garden</h3>
-          <p>My personal note-taking system and knowledge base built with Quartz. A place where thoughts grow.</p>
-          <a href="https://aj-abhinai.github.io/" target="_blank" class="btn btn-primary">🌱 Visit Garden</a>
-        </div>
-         <div class="project">
-          <div class="project-status-container">
-            <span class="project-status status-live"></span>
-            <span class="project-status-text">Live</span>
-          </div>
-          <h3>Case forms</h3>
-          <p>A professional medical case documentation form designed for privacy and local device use</p>
-          <a href="https://caseforms.vercel.app/" target="_blank" class="btn btn-primary">🌐 View Project</a>
-        </div>
-        <div class="project">
-          <div class="project-status-container">
-            <span class="project-status status-live"></span>
-            <span class="project-status-text">Live</span>
-          </div>
-          <h3>Miller's Pyramid Generator</h3>
-          <p>A simple Miller's pyramid generator for academic purposes.</p>
-          <a href="https://academic-tools.pages.dev/" target="_blank" class="btn btn-primary">🌐 View Project</a>
-        </div>
-        
-        <div class="project">
-          <div class="project-status-container">
-            <span class="project-status status-inactive"></span>
-            <span class="project-status-text">Not Active</span>
-          </div>
-          <h3>Quick Doc Slot</h3>
-          <p>A simple appointment scheduling experiment deployed on Vercel.</p>
-          <a href="https://quick-doc-slot.vercel.app/" target="_blank" class="btn btn-primary">🌐 View Project</a>
-        </div>
-        
-        <div class="project">
-          <div class="project-status-container">
-            <span class="project-status status-inactive"></span>
-            <span class="project-status-text">Inactive</span>
-          </div>
-          <h3>Expense Tracker</h3>
-          <p>My first project - learning to build and deploy with modern web tools.</p>
-          <a href="https://expense-tracker-lake-psi.vercel.app/" target="_blank" class="btn btn-primary">🌐 View Project</a>
-        </div>
+        <h3>Expense Tracker</h3>
+        <p>My first project - learning to build and deploy with modern web tools.</p>
+        <a href="https://expense-tracker-lake-psi.vercel.app/" target="_blank" class="btn btn-primary">🌐 View
+          Project</a>
       </div>
-    </section>
 
-    <section id="support">
-      <h2>☕ Support the Projects</h2>
-      <div class="support-highlight">
-        <a href="https://www.buymeacoffee.com/aj_abhinai" target="_blank" class="coffee-button">
-          <span class="coffee-icon">☕</span>
-          <span>Buy Me a Coffee</span>
-        </a>
-        <p>If you find these experiments useful or interesting, consider supporting my work!</p>
-        <p class="support-note">Your support helps me create more open-source tools and experiments</p>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <p>© 2025 Inverted Dodo · Built with curiosity .</p>
-    </footer>
-  </body>
-  </html>
+  <section id="support">
+    <h2>☕ Support the Projects</h2>
+    <div class="support-highlight">
+      <a href="https://www.buymeacoffee.com/aj_abhinai" target="_blank" class="coffee-button">
+        <span class="coffee-icon">☕</span>
+        <span>Buy Me a Coffee</span>
+      </a>
+      <p>If you find these experiments useful or interesting, consider supporting my work!</p>
+      <p class="support-note">Your support helps me create more open-source tools and experiments</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Inverted Dodo · Built with curiosity.</p>
+  </footer>
+
+</body>
+
+</html>
