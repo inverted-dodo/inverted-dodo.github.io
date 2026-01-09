@@ -18,6 +18,7 @@ html {
   --border-light: #E6E4D9;
   --accent-cyan: #24837B;
   --accent-orange: #DA702C;
+  --accent-maroon: #8B2942;
   --status-live: #879A39;
   --status-inactive: #878580;
 }
@@ -81,8 +82,12 @@ h1 {
 }
 
 .intro strong {
-  color: var(--text-primary);
+  color: var(--accent-maroon);
   font-weight: 600;
+}
+
+.highlight {
+  color: var(--accent-maroon);
 }
 
 .header-divider {
