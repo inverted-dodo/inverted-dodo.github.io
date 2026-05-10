@@ -33,15 +33,43 @@
 
   <section id="implementation">
     <div class="implementation-grid">
-      
+
+      <div class="implementation-card two-col-card">
+        <div class="col">
+          <h3>Tech Stack</h3>
+          <ul class="tech-list">
+            <li><span class="tech-label">Framework:</span> Next.js (React)</li>
+            <li><span class="tech-label">Styling:</span> Tailwind CSS</li>
+            <li><span class="tech-label">Deployment:</span> Vercel</li>
+            <li><span class="tech-label">Storage:</span> LocalStorage (client-side)</li>
+            <li><span class="tech-label">Icons:</span> Lucide React</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Project Overview</h3>
+          <p>A local-first medical documentation tool designed for doctors and medical researchers to efficiently document patient cases. The application runs entirely in the browser with no backend required.</p>
+        </div>
+      </div>
+
       <div class="implementation-card">
-        <h3>Tech Stack</h3>
+        <h3>Key Features</h3>
         <ul class="tech-list">
-          <li><span class="tech-label">Framework:</span> Next.js (React)</li>
-          <li><span class="tech-label">Styling:</span> Tailwind CSS</li>
-          <li><span class="tech-label">Deployment:</span> Vercel</li>
-          <li><span class="tech-label">Storage:</span> LocalStorage (client-side)</li>
-          <li><span class="tech-label">Icons:</span> Lucide React</li>
+          <li><span class="tech-label">Case Sheets:</span> Multiple case sheet templates for documenting patient encounters in a structured format</li>
+          <li><span class="tech-label">Export Options:</span> Export documented cases as PDF or Word (.docx) files for records and sharing</li>
+          <li><span class="tech-label">Local-First:</span> All data stored in browser LocalStorage - no server, no account needed, complete privacy</li>
+          <li><span class="tech-label">Prescription Module:</span> Separate module for creating prescriptions with professional formatting</li>
+          <li><span class="tech-label">PDF Export:</span> Generate professional PDF prescriptions ready for printing</li>
+          <li><span class="tech-label">WhatsApp Share:</span> Directly share prescriptions via WhatsApp for quick patient communication</li>
+        </ul>
+      </div>
+
+      <div class="implementation-card">
+        <h3>Design Decisions</h3>
+        <ul class="tech-list">
+          <li><span class="tech-label">No Backend:</span> Privacy-first approach - patient data never leaves the device</li>
+          <li><span class="tech-label">Offline Capable:</span> Works without internet connection after initial load</li>
+          <li><span class="tech-label">Form Templates:</span> Pre-built medical forms reduce documentation time</li>
+          <li><span class="tech-label">Cross-Platform:</span> Access from any device with a modern browser</li>
         </ul>
       </div>
 

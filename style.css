@@ -339,6 +339,27 @@ h2 {
   box-shadow: 4px 4px 0 var(--border-color);
 }
 
+.two-col-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.two-col-card .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-col-card .col h3 {
+  margin-bottom: 14px;
+}
+
+.two-col-card .col p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
 .card-icon {
   font-size: 1.5rem;
   margin-bottom: 12px;
@@ -430,130 +451,9 @@ h2 {
   margin-top: 8px;
 }
 
-/* ===== Footer ===== */
-footer {
-  margin-top: 0;
-  padding: 28px 20px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  border-top: 1px solid var(--border-light);
-  background: var(--bg-base);
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 768px) {
-  .header-top {
-    flex-direction: column-reverse;
-    gap: 16px;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  .intro p {
-    font-size: 0.95rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-    margin-bottom: 32px;
-  }
-
-  nav {
-    gap: 12px;
-  }
-
-  nav a {
-    width: 40px;
-    height: 40px;
-    font-size: 1.2rem;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .project {
-    padding: 20px 18px;
-  }
-
-  .status-legend {
-    gap: 16px;
-    margin-bottom: 28px;
-  }
-
-  section {
-    padding: 35px 16px;
-  }
-}
-
 @media (max-width: 480px) {
-  header {
-    padding: 30px 16px 20px;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .intro p {
-    font-size: 0.9rem;
-  }
-
-  h2 {
-    font-size: 1.1rem;
-    margin-bottom: 26px;
-  }
-
-  nav a {
-    width: 38px;
-    height: 38px;
-    font-size: 1.1rem;
-  }
-
-  .project {
-    padding: 16px 14px;
-  }
-
-  .project h3 {
-    font-size: 1rem;
-  }
-
-  .project p {
-    font-size: 0.85rem;
-  }
-
-  .project-status-container {
-    top: 12px;
-    right: 12px;
-  }
-
-  .btn {
-    font-size: 0.8rem;
-    padding: 7px 12px;
-  }
-
   .coffee-button {
     font-size: 0.92rem;
     padding: 12px 22px;
-  }
-
-  .badge {
-    font-size: 0.6rem;
-    padding: 2px 6px;
-  }
-
-  section {
-    padding: 30px 14px;
-  }
-
-  footer {
-    padding: 24px 14px;
   }
 }
